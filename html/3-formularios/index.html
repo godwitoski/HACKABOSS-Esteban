@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formularios</title>
+</head>
+
+<body>
+
+    <form action="#" method="post">
+        <fieldset>
+            <legend>Información del usuario</legend>
+            <ul>
+                <li>
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" id="nombre" name="nombre" required autofocus>
+                </li>
+                <li><label for="email">Correo Electrónico</label>
+                    <input type="email" id="email" name="email" required>
+                </li>
+                <li>
+                    <label for="web">URL</label>
+                    <input type="url" name="web" id="web" placeholder="Escribe la URL de tu página web personal">
+                </li>
+            </ul>
+        </fieldset>
+        <fieldset>
+            <legend>Horarios y fechas </legend>
+            <ul>
+                <li>
+                    <label for="fecha">Fecha</label>
+                    <input type="date" name="fecha" id="fecha">
+                </li>
+                <li>
+                    <label for="tiempo">Tiempo</label>
+                    <input type="time" name="tiempo" id="tiempo">
+                </li>
+                <li>
+                    <label for="fecha-hora">Fecha y Hora</label>
+                    <input type="datetime-local" name="fecha-hora" id="fecha-hora">
+                </li>
+                <li>
+                    <label for="mes">Mes</label>
+                    <input type="month" name="mes" id="mes">
+                </li>
+                <li>
+                    <label for="semana">Semana</label>
+                    <input type="week" name="semana" id="semana">
+                </li>
+            </ul>
+        </fieldset>
+        <fieldset>
+            <legend>Teléfono e Información adicional</legend>
+            <ul>
+                <li>
+                    <label for="numero">Número</label>
+                    <input type="number" name="numero" id="numero" min="-10" max="10">
+                </li>
+                <li>
+                    <label for="telefono">Teléfono</label>
+                    <input type="tel" name="telefono" id="telefono" value="+34640052772" readonly>
+                </li>
+                <li>
+                    <label for="busqueda">Término de busqueda</label>
+                    <input type="search" name="busqueda" id="busqueda" disabled>
+                </li>
+                <li>
+                    <label for="color">Color Favorito</label>
+                    <input type="color" name="color" id="color">
+                </li>
+            </ul>
+        </fieldset>
+        <button>Enviar</button>
+    </form>
+</body>
+
+</html>

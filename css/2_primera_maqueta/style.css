@@ -1,0 +1,77 @@
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        /* Toda la página tiene una tipografía sin serifa. */
+        
+        body {
+            font-family: sans-serif;
+        }
+        /* La cabecera tiene color de fondo, y texto blanco y centrado. */
+        
+        header {
+            background-color: rgb(0, 174, 255);
+            color: rgb(255, 255, 255);
+            text-align: center;
+        }
+        /* Lista:
+
+Las viñetas de la lista no son las que vienen por defecto. */
+        
+        main section>h2 {
+            color: rgb(0, 174, 255);
+            margin: 1.5rem 0;
+        }
+        
+        main section ul {
+            list-style: circle inside;
+            margin-left: 1rem;
+        }
+        /* 
+
+Los objetos importantes de la lista están subrayados y en negrita. */
+        
+        main section ul li.importante {
+            text-decoration: underline;
+            font-weight: bold;
+        }
+        /* Tabla:
+
+La cabecera tiene un color de fondo y de texto diferente al resto */
+        
+        td,
+        th {
+            padding: 0.5rem;
+        }
+        
+        main section table tr th,
+        td {
+            padding: 5px;
+        }
+        
+        main section table thead {
+            background-color: rgb(0, 174, 255);
+            color: rgb(255, 255, 255);
+        }
+        /* Las filas pares tienen un color de fondo distinto a las impares  */
+        
+        main section table tbody tr:nth-child(even) {
+            background-color: rgb(146, 206, 221);
+        }
+        
+        main section table tbody tr:nth-child(odd) {
+            background-color: rgb(209, 246, 255);
+        }
+        /*  Los títulos de fila tienen un color de fondo con transparencia*/
+        
+        main section table tbody tr th {
+            background-color: rgba(18, 134, 163, 0.5);
+        }
+        /* El texto de la fila de descanso está en mayúsculas, negrita y centrado */
+        
+        main section table tbody tr td#descanso {
+            text-align: center;
+            text-transform: uppercase;
+            font-weight: bold;
+        }

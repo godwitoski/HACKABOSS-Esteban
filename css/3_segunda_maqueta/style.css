@@ -1,0 +1,93 @@
+        * {
+            box-sizing: border-box;
+            padding: 0;
+            margin: 0;
+        }
+        
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        /* header {
+            background-color: #000;
+            color: #fff;
+            padding: 2rem;
+        } */
+        /* -----H E A D E R --------- */
+        
+        .divheader {
+            /* padding: 30px 80px 30px 30px; */
+            background-color: #000;
+            color: #fff;
+            padding: 2rem;
+        }
+        
+        .divheader h2 {
+            margin: 1rem 0;
+        }
+        /* --------M A I N ---------- */
+        
+        main {
+            margin-left: auto;
+            margin-right: auto;
+            max-width: 50%;
+        }
+        
+        main section {
+            margin: 1rem 0;
+        }
+        
+        main section>h2 {
+            color: #808080;
+            border-bottom: 1px solid #808080;
+            padding-bottom: 1rem;
+            font-size: 1.5rem;
+        }
+        /* .div1_article {
+            display: grid;
+            grid-template-columns: 2fr 1fr;
+            margin: 10px 0;
+            gap: 5px;
+            text-align: justify;
+        } */
+        
+        .div1_article img {
+            object-fit: cover;
+            max-width: 100%;
+            width: 10rem;
+            height: 10rem;
+            float: right;
+            margin-left: 0.5rem;
+        }
+        
+        .div1_article p {
+            margin: 1rem 0;
+        }
+        /*---```F O R M U L A R I O````-----*/
+        
+        .form ul {
+            margin: 1rem 0;
+            padding: 0;
+            list-style-type: none;
+        }
+        
+        .form label {
+            font-weight: bold;
+            display: block;
+            margin-top: 1rem;
+            margin-bottom: 0.5rem;
+        }
+        
+        .form input,
+        textarea {
+            background-color: #808080;
+            border: 1px solid #808080;
+            width: 100%;
+            padding: 0.6rem;
+        }
+        
+        .form button {
+            background-color: #000;
+            color: #fff;
+            padding: 0.5rem 1.5rem;
+            border: none;
+        }

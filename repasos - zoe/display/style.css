@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+section {
+  border: 2px solid blue;
+
+  padding: 3rem;
+}
+
+p {
+  border: 1px solid;
+  background-color: lightblue;
+
+  /* Puedo manipular totalemente sus dimensiones y su espaciado */
+  /* No pueden tener elementos a los lados */
+
+  width: 50%;
+  height: 15rem;
+  margin: 2rem;
+  padding: 1rem;
+}
+
+span,
+strong {
+  border: 1px solid blueviolet;
+  background-color: rgba(137, 43, 226, 0.355);
+
+  /* No puedo manipular sus dimentsiones */
+  /* Pueden tener cosas a los lados */
+  width: 10rem;
+  height: 5rem;
+
+  /* El espaciado hace cosas raras */
+  margin: 1rem;
+  padding: 1rem;
+}
+
+/* Cambiar de linea a bloque */
+
+#block * {
+  display: block;
+}
+
+/* Cambiar de bloque a linea */
+
+#inline * {
+  display: inline;
+}
+
+/* Inline-block */
+
+/* Puedo manipular totalemente sus dimensiones y su espaciado */
+/* Pueden tener cosas a los lados */
+
+#inline-block * {
+  display: inline-block;
+}

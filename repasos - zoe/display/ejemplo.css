@@ -1,0 +1,26 @@
+article {
+  border: 1px solid;
+  height: 5rem;
+  width: 5rem;
+
+  display: inline-block;
+  /*   display: inline-flex;
+
+  justify-content: center;
+  align-items: center; */
+}
+
+nav a {
+  padding: 0.5rem 1rem;
+  background-color: lightblue;
+  display: inline-block;
+}
+
+/* li {
+  display: inline-block;
+}
+ */
+
+input {
+  display: block;
+}

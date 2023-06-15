@@ -1,0 +1,54 @@
+:root{
+    --fontFamily:Arial,Helvetica,sans-serif;
+    --colorLight:#000;
+    --BackgroundColorLight:#fdfdfd;
+    --colorDark:#fff;
+    --BackgroundColorDark:#1f1f1f;
+    --sizeExtraSmall:0.8rem;
+    --sizeSmall:1rem;
+    --sizeNormal:1.5rem;
+    --sizeLarge:2rem;
+    --transition: color 1s ease,background-color 1s ease;
+
+    
+
+}
+*{
+    border: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/*Modo oscuro - No cambiar*/
+.changemode{
+position: absolute;
+top: var(--sizeExtraSmall);
+right: var(--sizeExtraSmall);
+font-size: var(--sizeNormal);
+
+}
+.changemode label{
+    cursor: pointer;
+    transition: var(--transition);
+    }
+.changemode #toggle{
+display: none;
+}
+.dark{
+    background-color: var(--BackgroundColorDark);
+    color: var(--colorDark);
+}
+
+/*  BODY */
+body{
+    font-family: var(--fontFamily);
+    transition: var(--transition);
+    margin:  var(--sizeSmall) auto;
+    background-color: var(--BackgroundColorLight);
+    color: var(--colorLight);
+    width: 80%;
+    display: grid;
+    grid-template-rows: 1fr 80vh 1fr;
+    gap: var(--sizeSmall);
+    
+}

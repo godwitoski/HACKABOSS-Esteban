@@ -1,0 +1,74 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Toda la página tiene una tipografía sin serifa. */
+body {
+  font-family: sans-serif;
+}
+
+/* La cabecera tiene color de fondo, y texto blanco y centrado. */
+header {
+  background-color: rgb(67, 189, 255);
+  color: white;
+  text-align: center;
+}
+
+h2 {
+  color: rgb(67, 189, 255);
+  margin: 1.5rem 0;
+}
+
+/* Lista: */
+
+/* Las viñetas de la lista no son las que vienen por defecto. */
+ul {
+  list-style: circle inside;
+  margin-left: 1rem;
+}
+
+/* Los objetos importantes de la lista están subrayados y en negrita. */
+
+.importante {
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+/* Tabla: */
+
+td,
+th {
+  padding: 0.5rem;
+}
+
+/* La cabecera tiene un color de fondo y de texto diferente al resto. */
+
+thead {
+  background-color: rgb(67, 189, 255);
+  color: white;
+}
+
+/* Las filas pares tienen un color de fondo distinto a las impares. */
+
+tbody {
+  background-color: rgb(230, 246, 255);
+}
+
+tbody > tr:nth-child(even) {
+  background-color: rgb(149, 218, 255);
+}
+
+/* Los títulos de fila tienen un color de fondo con transparencia. */
+tbody th {
+  background-color: rgba(67, 189, 255, 0.247);
+}
+
+/* El texto de la fila de descanso está en mayúsculas, negrita y centrado. */
+
+#descanso {
+  text-transform: uppercase;
+  font-weight: bold;
+  text-align: center;
+}

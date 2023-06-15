@@ -1,0 +1,114 @@
+        /* Importar*/
+        
+        @import"/typography.css";
+        /* Selectores por elemento*/
+        
+        h1 {
+            background-color: rgb(98, 179, 255);
+            color: yellow;
+        }
+        
+        a {
+            text-decoration: none;
+        }
+        /* Selectores por clases*/
+        
+        .important {
+            font-size: 25px;
+            font-weight: bold;
+        }
+        
+        .hl {
+            text-decoration: underline;
+        }
+        /* Selectores por id*/
+        
+        #principal {
+            background-color: lightcoral;
+        }
+        /* Selectores por atributos*/
+        
+        [lang="gl"] {
+            color: greenyellow;
+            text-decoration: underline;
+        }
+        
+        [data-importancia] {
+            font-weight: bold;
+            color: steelblue;
+        }
+        
+        [data-importancia="alta"] {
+            font-size: 50px;
+            color: red;
+        }
+        
+        [data-importancia="baja"] {
+            font-size: 10px;
+        }
+        /*atributo que empieza por algún valor*/
+        
+        [href^="http"] {
+            color: burlywood;
+            background-color: rgb(255, 38, 0);
+        }
+        /* atributo por pseudo clases - al estado*/
+        /*Ratón encima*/
+        
+        a:hover {
+            background-color: yellowgreen;
+        }
+        /*sitios visitados*/
+        
+        a:visited {
+            color: blueviolet;
+        }
+        /*cuando está activo-clickando*/
+        
+        a:active {
+            font-size: 30px;
+        }
+        /*---------------*/
+        /*para hijos de su padre*/
+        
+        li:first-child {
+            color: blueviolet;
+        }
+        
+        li:nth-child(2) {
+            font-size: bold;
+        }
+        
+        li:last-child {
+            color: chartreuse;
+        }
+        
+        li:only-child {
+            color: royalblue;
+        }
+        /*Seleccionar los que no son la clase específica*/
+        
+        li:not(.important) {
+            background-color: gold;
+        }
+        /*-----------Pseudo elemento------------*/
+        /*primera letra-linea etc*/
+        
+        p::first-letter {
+            font-size: 100px;
+            color: blanchedalmond;
+        }
+        /*para cuando seleccionemos*/
+        
+         ::selection {
+            background-color: lightpink;
+        }
+        /*colocar contenido extra*/
+        
+        h2::after {
+            content: "ESSSSSSSSSTOOOOOOOOOOOOOOOOO ES UN ADORRRRRRRRRRRRRRRRRRRRRRNOOOOOOOOO";
+        }
+        
+        h2::before {
+            content: "Esto es un Beforeeeeeee";
+        }

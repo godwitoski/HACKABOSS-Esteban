@@ -1,0 +1,103 @@
+    @import url(/base.css);
+    /* *******======G R I D   B O X=======*******
+    /*********===========================****** */
+    
+    body {
+        display: grid;
+        grid-template-rows: 10rem 2rem auto 2rem;
+    }
+    /* *******======F L E X   B O X=======*******
+    /*********===========================****** */
+    /* ==== H   E   A   D   E   R ==== */
+    
+    header {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+    
+    header>nav>ul {
+        display: flex;
+        gap: 1rem;
+    }
+
+    header>nav>ul>li{
+        display: flex;
+    }
+
+    header form{
+        display: flex;
+    }
+    /* ==== N  A  V ... M  E  N  U  ==== */
+    
+    nav[aria-label="categorias"] {
+        margin: auto 0;
+    }
+    
+    nav[aria-label="categorias"]>ul {
+        display: flex;
+        justify-content: space-evenly;
+        list-style-type: none;
+        align-items: center;
+        /* height: 100%; */
+    }
+    
+    nav[aria-label="categorias"]>ul>li a {
+        text-decoration: none;
+        color: var(--primary);
+    }
+    /* ==== M  A  I  N ==== */
+    
+    main {
+        display: flex;
+        gap: 1rem;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        min-height: 100vh;
+    }
+
+    main article{display: flex;
+        flex-direction: column;}
+
+    main article p{
+        flex-grow: 1;
+    }
+    /* ====F  O  O  T  E  R ==== */
+    
+    footer {
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+    /*****===== M E D I A   Q U E R Y =============******/
+    
+    @media screen and (min-width:600px) {
+        body {
+            display: grid;
+            grid-template-rows: 5rem auto auto 2rem;
+            grid-auto-columns: 10rem auto;
+        }
+        header {
+            flex-direction: row;
+            grid-column: 1 / 5;
+            justify-content: space-between;
+        }
+        nav[aria-label="categorias"]>ul {
+            flex-direction: column;
+            align-items: start;
+            gap: 1rem;
+            margin: 0 0.5rem;
+        }
+        main {
+            grid-row: 2 / 4;
+            grid-column: 2 / 5;
+        }
+        footer {
+            display: flex;
+            align-items: center;
+            gap: 2rem;
+            justify-content: center;
+            grid-column: 2 / 5;
+        }
+    }

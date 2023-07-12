@@ -1,0 +1,190 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    --colorPrincipal : rgb(1, 81, 65);
+    --espaciado:0.2rem;
+    --buttonsize:1.5rem;
+    --sombra:0 1px 3px rgba(0, 0, 0, 0.384);
+}
+
+body{
+    font-family: sans-serif;
+
+    background-color: #ffe5e5;
+
+    background-image: url(https://cdn.computerhoy.com/sites/navi.axelspringer.es/public/media/image/2016/04/165802-fondos-pantalla-whatsapp.jpg);
+
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+
+header{
+    background-color: var(--colorPrincipal);
+    display: flex;
+    padding: 1rem;
+    color: #fff;
+    align-items: center;
+    gap: 0.5rem;
+
+    box-shadow: var(--sombra);
+}
+header h1{
+    font-size: 1.2rem;
+}
+header div{
+    flex-grow: 1;
+}
+
+
+
+img{
+    width: 3rem;
+    height: 3rem;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+header menu{
+    list-style: none;
+    display: flex;
+    gap: 0.2rem;
+}
+
+/*****MAIN*******/
+main{
+    flex-grow: 1;
+    padding: 1rem;
+
+    overflow: auto;
+}
+
+main p{
+    width: 80%;
+    padding: 0.5rem;
+    border-radius: 5px;
+    margin: 0.5rem auto;
+
+    box-shadow: var(--sombra);
+}
+
+p.date{
+    background-color: lightblue;
+    width: fit-content;
+    padding: 0.3rem 1rem;
+    position: sticky;
+    top: 0.5rem;
+}
+
+p.me{
+    background-color: rgb(199, 238, 168);
+    margin-right: 0;
+    border-bottom-right-radius: 0;
+}
+
+p.other{
+    background-color: rgb(245, 245, 220);
+    margin-left: 0;
+    border-bottom-left-radius: 0;
+}
+
+
+
+
+
+/**------F O R M---------**/
+
+form{
+    display: flex;
+    gap:var(--espaciado);
+    padding: 0.5rem;
+    width: 100vw;
+}
+
+
+fieldset{
+border: none;
+background-color: #fff;
+padding: 0.5rem;
+border-radius: 2rem;
+flex-grow: 1;
+
+display: flex;
+gap: var(--espaciado);
+box-shadow: var(--sombra);
+}
+
+form input{
+    border: none;
+    flex-grow: 1;
+}
+
+#audio{
+    background-image: url(./img/microphone.svg);
+
+    background-color: var(--colorPrincipal);
+    border-radius: 50%;
+    width: 2.5rem;
+    height: 2.5rem;
+    flex-shrink: 0;
+    box-shadow: var(--sombra);
+    
+}
+
+
+
+
+/*-----------BUTTON------------*/
+
+button{
+    border: none;
+    background-color: transparent;
+    font-size: 0;
+
+
+
+    width: 2rem;
+    height: 2rem;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+
+
+
+
+#back{
+    background-image: url(./img/arrow.svg);
+}
+
+#video{
+    background-image: url(./img/video.svg);
+}
+
+#phone{
+    background-image: url(./img/phone.svg);
+    height: 1.5rem;
+}
+
+#menu{
+    background-image: url(./img/menu.svg);
+}
+
+#emoji{
+    background-image: url(./img/emoji.svg);
+}
+
+#add{
+    background-image: url(./img/add.svg);
+}
+
+#camera{
+    background-image: url(./img/camera.svg);
+}
+

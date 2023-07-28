@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>JS - Eventos</title>
+
+    <link rel="stylesheet" href="./styles.css" />
+</head>
+
+<body>
+    <div class="topSection">
+        <header class="header container">
+            <div class="logo">
+                <img src="./logo.png" />
+            </div>
+            <nav class="navBar">
+                <a href="#">Section 1</a>
+                <a href="#">Section 2</a>
+                <a href="#">Section 3</a>
+                <a href="#">Section 4</a>
+            </nav>
+        </header>
+
+        <div class="main-topSection container">
+            <h1>Practiquemos <span> eventos </span>en JS</h1>
+
+            <form action="/search" method="POST" class="search-form" id="search-form">
+                <input type="text" name="search" class="search" placeholder="Click, MouseOver..." />
+                <button type="submit" id="btn-submit">Search</button>
+            </form>
+        </div>
+    </div>
+
+    <main class="container">
+        <section class="to-do">
+            <h2 class="sports-title">Sports</h2>
+            <div class="option-list">
+                <div class="option">
+                    <img src="./Atletismo.jpeg" />
+                    <div class="info">
+                        <p class="category sport">Deporte</p>
+                        <p class="title">Atletismo</p>
+                        <p class="price">300</p>
+                    </div>
+                </div>
+
+                <div class="option">
+                    <img src="./Atletismo.jpeg" />
+                    <div class="info">
+                        <p class="category sport">Deporte</p>
+                        <p class="title">Atletismo</p>
+                        <p class="price">300</p>
+                    </div>
+                </div>
+
+                <div class="option">
+                    <img src="./Atletismo.jpeg" />
+                    <div class="info">
+                        <p class="category sport">Deporte</p>
+                        <p class="title">Atletismo</p>
+                        <p class="price">300</p>
+                    </div>
+                </div>
+
+                <div class="option">
+                    <img src="./Atletismo.jpeg" />
+                    <div class="info">
+                        <p class="category sport">Deporte</p>
+                        <p class="title">Atletismo</p>
+                        <p class="price">300</p>
+                    </div>
+                </div>
+
+                <div class="option">
+                    <img src="./Atletismo.jpeg" />
+                    <div class="info">
+                        <p class="category sport">Deporte</p>
+                        <p class="title">Atletismo</p>
+                        <p class="price">300</p>
+                    </div>
+                </div>
+
+                <div class="option">
+                    <img src="./Atletismo.jpeg" />
+                    <div class="info">
+                        <p class="category sport">Deporte</p>
+                        <p class="title">Atletismo</p>
+                        <p class="price">300</p>
+                    </div>
+                </div>
+        </section>
+        <section class="to-do">
+            <h2 class="premium-gyms">Premium Gyms</h2>
+            <div class="option-list premium">
+                <div class="info">
+                    <h3>Gimnasios con pádel y piscina</h3>
+                    <a href="#" class="btn btn-gym">Explorar gimnasios </a>
+                </div>
+            </div>
+        </section>
+
+        <section class="more-sports">
+            <h2>More Sports</h2>
+            <div class="option-list">
+                <div class="option">
+                    <img src="./Atletismo.jpeg" />
+                    <div class="info">
+                        <p class="category sport">Deporte</p>
+                        <p class="title">Atletismo</p>
+                        <p class="price">300</p>
+                    </div>
+                </div>
+
+                <div class="option">
+                    <img src="./Atletismo.jpeg" />
+                    <div class="info">
+                        <p class="category sport">Deporte</p>
+                        <p class="title">Atletismo</p>
+                        <p class="price">300</p>
+                    </div>
+                </div>
+
+                <div class="option">
+                    <img src="./Atletismo.jpeg" />
+                    <div class="info">
+                        <p class="category sport">Deporte</p>
+                        <p class="title">Atletismo</p>
+                        <p class="price">300</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="athletes">
+            <h2>Famous athletes</h2>
+            <div class="option-list">
+                <div class="option">
+                    <img src="./athlete.jpeg" />
+                    <div class="info">
+                        <p class="title">Runner</p>
+                    </div>
+                </div>
+
+                <div class="option">
+                    <img src="./athlete.jpeg" />
+                    <div class="info">
+                        <p class="title">Runner</p>
+                    </div>
+                </div>
+                <div class="option">
+                    <img src="./athlete.jpeg" />
+                    <div class="info">
+                        <p class="title">Runner</p>
+                    </div>
+                </div>
+
+                <div class="option">
+                    <img src="./athlete.jpeg" />
+                    <div class="info">
+                        <p class="title">Runner</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="to-do">
+            <h2>Actividades para hoy</h2>
+            <div class="option-list">
+                <div class="option">
+                    <img src="./Atletismo.jpeg" />
+                    <div class="info">
+                        <p class="category sport">Deporte</p>
+                        <p class="title">Atletismo</p>
+                        <p class="price">300</p>
+                    </div>
+                </div>
+
+                <div class="option">
+                    <img src="./Atletismo.jpeg" />
+                    <div class="info">
+                        <p class="category sport">Deporte</p>
+                        <p class="title">Atletismo</p>
+                        <p class="price">300</p>
+                    </div>
+                </div>
+
+                <div class="option">
+                    <img src="./Atletismo.jpeg" />
+                    <div class="info">
+                        <p class="category sport">Deporte</p>
+                        <p class="title">Atletismo</p>
+                        <p class="price">300</p>
+                    </div>
+                </div>
+
+                <div class="option">
+                    <img src="./Atletismo.jpeg" />
+                    <div class="info">
+                        <p class="category sport">Deporte</p>
+                        <p class="title">Atletismo</p>
+                        <p class="price">300</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <form action="#" method="post" class="validationForm" name="userForm">
+            <ul>
+                <li>
+                    <label for="name"> Name</label>
+                    <input type="text" name="name" id="name" placeholder="Escribe tu nombre" value="jorge">
+                    <p class="errorname ocultar"></p>
+                </li>
+                <li>
+                    <label for="age"> Age</label>
+                    <input type="number" name="age" id="age" placeholder="Ingresa edad">
+                    <p class="errorage ocultar"></p>
+
+                </li>
+                <li>
+                    <label for="email"> Email</label>
+                    <input type="text" name="email" id="email" placeholder="Ingresa tu Correo Electronico">
+                    <p class="erroremail ocultar"></p>
+                </li>
+            </ul>
+            <button type="submit" id="submit">Enviar</button>
+        </form>
+        <div id="idlocalstorage"></div>
+
+        <input type="checkbox" name="check">
+    </main>
+
+    <footer id="footer" class="footer">
+        <div class="container">
+            <div class="nav-footer">
+                <h3 class="title-footer">JS - Eventos</h3>
+                <nav class="menu">
+                    <a href="#">Deporte</a>
+                    <a href="#">Federación</a>
+                    <a href="#">Runners</a>
+                    <a href="#">Stadiums</a>
+                </nav>
+            </div>
+
+            <div class="nav-footer">
+                <h3 class="title-footer">JS - Eventos</h3>
+                <nav class="menu">
+                    <a href="#">Deporte</a>
+                    <a href="#">Federación</a>
+                    <a href="#">Runners</a>
+                    <a href="#">Stadiums</a>
+                </nav>
+            </div>
+
+            <div class="nav-footer">
+                <h3 class="title-footer">JS - Eventos</h3>
+                <nav class="menu">
+                    <a href="#">Deporte</a>
+                    <a href="#">Federación</a>
+                    <a href="#">Runners</a>
+                    <a href="#">Stadiums</a>
+                </nav>
+            </div>
+
+            <div class="nav-footer">
+                <nav class="social-media">
+                    <ul>
+                        <li>
+                            <a href="http://facebook.com" target="_blank"><span>Facebook</span></a>
+                        </li>
+                        <li>
+                            <a href="http://twitter.com" target="_blank"><span>Twitter</span></a>
+                        </li>
+                        <li>
+                            <a href="http://instagram.com" target="_blank"><span>Instagram</span></a>
+                        </li>
+                    </ul>
+                </nav>
+                <nav class="menu">
+                    <a href="#">Deporte</a>
+                    <a href="#">Federación</a>
+                    <a href="#">Runners</a>
+                    <a href="#">Stadiums</a>
+                </nav>
+            </div>
+        </div>
+    </footer>
+    <a href="#footer" class="btn-float">Abrir footer</a>
+    <script src="./main.js"></script>
+</body>
+
+</html>

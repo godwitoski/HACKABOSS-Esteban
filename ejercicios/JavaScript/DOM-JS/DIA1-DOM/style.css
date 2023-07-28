@@ -1,0 +1,97 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+  line-height: 1.5;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 1rem;
+}
+
+header h1 {
+  font-size: 2rem;
+  text-transform: uppercase;
+}
+
+main {
+  width: 90%;
+  margin: auto;
+  padding: 2rem 0;
+}
+
+.hidden{
+    visibility: hidden;
+}
+
+#products {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 1rem;
+}
+
+.product {
+  background-color: #fff;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.1);
+}
+
+.product h2 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.product p {
+  margin-bottom: 1rem;
+}
+
+.btn {
+  display: block;
+  width: 100%;
+  padding: 0.5rem;
+  border: none;
+  background-color: #333;
+  color: #fff;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #555;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 1rem;
+}
+
+footer p {
+  font-size: 0.8rem;
+}
+
+/* Responsive */
+
+@media (max-width: 768px) {
+  #products {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 500px) {
+  #products {
+    grid-template-columns: 1fr;
+  }
+}

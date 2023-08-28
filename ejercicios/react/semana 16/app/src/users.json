@@ -1,0 +1,182 @@
+[
+  {
+    "gender": "female",
+    "name": { "title": "Miss", "first": "Ella", "last": "White" },
+    "location": {
+      "street": { "number": 3507, "name": "Vimy St" },
+      "city": "Westport",
+      "state": "Newfoundland and Labrador",
+      "country": "Canada",
+      "postcode": "M0M 2N2",
+      "coordinates": { "latitude": "-66.8915", "longitude": "53.6948" },
+      "timezone": { "offset": "-10:00", "description": "Hawaii" }
+    },
+    "email": "ella.white@example.com",
+    "login": {
+      "uuid": "5e215ef5-12d2-404e-ae74-84dcb4848e34",
+      "username": "goldenleopard358",
+      "password": "jeanette",
+      "salt": "i2hcs4A3",
+      "md5": "c35ff1538d71020bebf5018d4ff55971",
+      "sha1": "fec8d24f6e1186d6551655cd7b6bdcf84ad1a908",
+      "sha256": "82bc8505abc826fcb4b52c7b0e63b6048ef27ad1c5e3cdce7573d9958e0da033"
+    },
+    "dob": { "date": "1989-11-28T17:41:15.620Z", "age": 33 },
+    "registered": { "date": "2015-06-01T08:50:27.942Z", "age": 7 },
+    "phone": "252-592-2784",
+    "cell": "557-491-6037",
+    "id": { "name": "ID", "value": "9d3db3ac-62df-4b46-8615-304bb9ce9d15" },
+    "picture": {
+      "large": "https://randomuser.me/api/portraits/women/70.jpg",
+      "medium": "https://randomuser.me/api/portraits/med/women/70.jpg",
+      "thumbnail": "https://randomuser.me/api/portraits/thumb/women/70.jpg"
+    },
+    "nat": "CA"
+  },
+  {
+    "gender": "male",
+    "name": { "title": "Mr", "first": "Wulf", "last": "Flach" },
+    "location": {
+      "street": { "number": 2814, "name": "Buchenweg" },
+      "city": "Havelsee",
+      "state": "Bremen",
+      "country": "Germany",
+      "postcode": 63658,
+      "coordinates": { "latitude": "39.0817", "longitude": "110.4888" },
+      "timezone": {
+        "offset": "-1:00",
+        "description": "Azores, Cape Verde Islands"
+      }
+    },
+    "email": "wulf.flach@example.com",
+    "login": {
+      "uuid": "688b7f2a-05b7-4173-8344-f36425491f1a",
+      "username": "beautifultiger916",
+      "password": "1963",
+      "salt": "e0fPPgkL",
+      "md5": "c7dd583fa736d7411b21afc078c4c8a2",
+      "sha1": "fd48c761dd09736a5aa04423bae27914a4affe24",
+      "sha256": "86ad2c27ca024d1d240741bcf322365d422ad46483b4b96a7683a63cb7ad7974"
+    },
+    "dob": { "date": "1965-04-27T07:39:11.820Z", "age": 57 },
+    "registered": { "date": "2006-04-10T09:41:55.761Z", "age": 16 },
+    "phone": "0615-5882336",
+    "cell": "0179-2551828",
+    "id": { "name": "ID", "value": "9d3db3ac-62df-4b46-8615-304bb9ce9d15" },
+    "picture": {
+      "large": "https://randomuser.me/api/portraits/men/78.jpg",
+      "medium": "https://randomuser.me/api/portraits/med/men/78.jpg",
+      "thumbnail": "https://randomuser.me/api/portraits/thumb/men/78.jpg"
+    },
+    "nat": "DE"
+  },
+  {
+    "gender": "male",
+    "name": { "title": "Mr", "first": "Nicolas", "last": "Lorenzo" },
+    "location": {
+      "street": { "number": 6416, "name": "Avenida de Andalucía" },
+      "city": "Santiago de Compostela",
+      "state": "Cantabria",
+      "country": "Spain",
+      "postcode": 19599,
+      "coordinates": { "latitude": "29.6021", "longitude": "-140.7867" },
+      "timezone": {
+        "offset": "+9:00",
+        "description": "Tokyo, Seoul, Osaka, Sapporo, Yakutsk"
+      }
+    },
+    "email": "nicolas.lorenzo@example.com",
+    "login": {
+      "uuid": "2901ee63-c928-48dd-855a-f3882e3e63c7",
+      "username": "purpleostrich627",
+      "password": "michael2",
+      "salt": "swOvRUCu",
+      "md5": "82b5a4e93467ad2ecfb8d5fe123df2e5",
+      "sha1": "712ea0f293be333366e0d33643907014850e9714",
+      "sha256": "793959cb2cf4d5825196ed7e16d9b77dabff3b973c3fea74ca43bc71c58886c1"
+    },
+    "dob": { "date": "1949-11-10T11:13:18.873Z", "age": 73 },
+    "registered": { "date": "2014-01-02T01:12:13.065Z", "age": 8 },
+    "phone": "995-241-301",
+    "cell": "696-122-693",
+    "id": { "name": "DNI", "value": "40755171-G" },
+    "picture": {
+      "large": "https://randomuser.me/api/portraits/men/87.jpg",
+      "medium": "https://randomuser.me/api/portraits/med/men/87.jpg",
+      "thumbnail": "https://randomuser.me/api/portraits/thumb/men/87.jpg"
+    },
+    "nat": "ES"
+  },
+  {
+    "gender": "female",
+    "name": { "title": "Ms", "first": "Ellen", "last": "Saarinen" },
+    "location": {
+      "street": { "number": 1354, "name": "Hämeenkatu" },
+      "city": "Orimattila",
+      "state": "Southern Ostrobothnia",
+      "country": "Finland",
+      "postcode": 40838,
+      "coordinates": { "latitude": "71.8391", "longitude": "50.9782" },
+      "timezone": {
+        "offset": "+6:00",
+        "description": "Almaty, Dhaka, Colombo"
+      }
+    },
+    "email": "ellen.saarinen@example.com",
+    "login": {
+      "uuid": "0c3145a5-bb75-499b-91ad-f9472412fa23",
+      "username": "redostrich855",
+      "password": "sadie",
+      "salt": "38doGga9",
+      "md5": "16f85c534f4118debea2a2f26d2292df",
+      "sha1": "fe8c3ebd258ff2f4f7d62b8a524de6187cf85a74",
+      "sha256": "4d86a88fb8260340d06471d2c449e114644aadba0d597df108344ddb9d6983b0"
+    },
+    "dob": { "date": "1996-08-04T11:23:04.248Z", "age": 26 },
+    "registered": { "date": "2011-08-09T19:29:27.790Z", "age": 11 },
+    "phone": "05-074-077",
+    "cell": "042-385-00-99",
+    "id": { "name": "HETU", "value": "NaNNA488undefined" },
+    "picture": {
+      "large": "https://randomuser.me/api/portraits/women/75.jpg",
+      "medium": "https://randomuser.me/api/portraits/med/women/75.jpg",
+      "thumbnail": "https://randomuser.me/api/portraits/thumb/women/75.jpg"
+    },
+    "nat": "FI"
+  },
+  {
+    "gender": "male",
+    "name": { "title": "Mr", "first": "Jonathan", "last": "Franklin" },
+    "location": {
+      "street": { "number": 4715, "name": "Dane St" },
+      "city": "St. Petersburg",
+      "state": "Maryland",
+      "country": "United States",
+      "postcode": 39723,
+      "coordinates": { "latitude": "-37.5168", "longitude": "48.0773" },
+      "timezone": { "offset": "-2:00", "description": "Mid-Atlantic" }
+    },
+    "email": "jonathan.franklin@example.com",
+    "login": {
+      "uuid": "f560c882-c146-4e2d-ac23-9c5df03810fc",
+      "username": "heavycat966",
+      "password": "laurent",
+      "salt": "OZRpXuv7",
+      "md5": "ee52cf532b00d095cf4be4f7f7335c8c",
+      "sha1": "d348395176e6cc1b7762b20e4591cd58b01caee2",
+      "sha256": "0f227eea74df6450bc52721af6e6af171bcca8fc4c502766174e2de544471b51"
+    },
+    "dob": { "date": "1989-11-13T05:54:56.118Z", "age": 13 },
+    "registered": { "date": "2006-04-24T18:08:16.671Z", "age": 16 },
+    "phone": "(910)-700-9517",
+    "cell": "(999)-068-9786",
+    "id": { "name": "SSN", "value": "118-15-5715" },
+    "picture": {
+      "large": "https://randomuser.me/api/portraits/men/14.jpg",
+      "medium": "https://randomuser.me/api/portraits/med/men/14.jpg",
+      "thumbnail": "https://randomuser.me/api/portraits/thumb/men/14.jpg"
+    },
+    "nat": "US"
+  }
+]
+
